@@ -14,5 +14,13 @@
         "email": "sadia.dhira01@gmail.com",
         "password": "123456",
         "gender": "Female"
+    },
+    {
+        "_id": 1662654888127,
+        "first_name": "Sanjida",
+        "last_name": "Akter",
+        "email": "seikhsanjida01@gmail.com",
+        "password": "rrr123rrr",
+        "gender": "Female"
     }
 ]
