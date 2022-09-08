@@ -1,0 +1,18 @@
+[
+    {
+        "_id": 1662613124189,
+        "first_name": "Hasibul",
+        "last_name": "Islam",
+        "email": "hasib143sl@gmail.com",
+        "password": "123456",
+        "gender": "Male"
+    },
+    {
+        "_id": 1662613260172,
+        "first_name": "Sadia",
+        "last_name": "Khanum",
+        "email": "sadia.dhira01@gmail.com",
+        "password": "123456",
+        "gender": "Female"
+    }
+]
