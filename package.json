@@ -1,0 +1,39 @@
+{
+  "name": "next-node-chat-server",
+  "version": "1.0.0",
+  "description": "Backend for the chat application convey with Next.js directly",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasibulislam999/next-node-chat-server.git"
+  },
+  "keywords": [
+    "real-time",
+    "database",
+    "authentication",
+    "chat",
+    "security",
+    "authorization",
+    "middleware",
+    "encryption"
+  ],
+  "author": "Hasibul Islam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hasibulislam999/next-node-chat-server/issues"
+  },
+  "homepage": "https://github.com/hasibulislam999/next-node-chat-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "win-node-env": "^0.6.1"
+  }
+}
