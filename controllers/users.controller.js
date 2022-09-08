@@ -1,5 +1,6 @@
 // external import
 const fs = require("fs");
+const jwt = require("jsonwebtoken");
 
 // global variable
 const path = `${__dirname}/../public/users.json`;
@@ -44,9 +45,15 @@ module.exports.postAUser = async (req, res, next) => {
             const stringifiedUserData = JSON.stringify(userData);
             fs.writeFileSync(path, stringifiedUserData);
 
+            const token = jwt.sign({ email: email }, "911ee5ae6561b4fc", {
+                expiresIn: "1h",
+                algorithm: "HS256"
+            })
+
             res.status(201).json({
                 success: true,
-                message: "Created"
+                message: "Created",
+                accessToken: token
             })
         } else {
             res.status(409).json({
