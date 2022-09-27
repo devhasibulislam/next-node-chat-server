@@ -1,14 +1,1 @@
-[
-    {
-        "_id": 1662652762711,
-        "message": "This is a test message from my first chat app!"
-    },
-    {
-        "_id": 1662653213807,
-        "message": "Hello vaiya 👋"
-    },
-    {
-        "_id": 1662653222087,
-        "message": "Ki hoyece???"
-    }
-]
+[{"_id":1662652762711,"message":"This is a test message from my first chat app!"},{"_id":1662653213807,"message":"Hello vaiya 👋"}]
